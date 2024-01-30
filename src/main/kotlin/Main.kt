@@ -13,7 +13,7 @@ fun main() {
         println("5. Exit")
 
         // Read user input
-        val userInput = readLine()
+        val userInput = readlnOrNull()
         userSelection = userInput?.toIntOrNull() ?: 0
 
         // Process user selection

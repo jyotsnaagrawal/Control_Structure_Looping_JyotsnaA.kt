@@ -22,7 +22,7 @@ fun main() {
             2 -> println("You have selected:\n2.Burger King Bogo\n")
             3 -> println("You have selected:\n3. Burger King snack box\n")
             4 -> println("You have selected:\n4. Coffee\n")
-            5 -> println("Exiting program. Goodbye!\n")
+            5 -> println(" Goodbye!\n")
             else -> println("Invalid entry, try again\n")
         }
     } while (userSelection != 5)
